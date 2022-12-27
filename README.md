@@ -1,2 +1,7 @@
-# astret
-Criação de um projeto de site para assuntos de astronomia
+# Projeto astret
+
+## Site em desenvolvimento buscando me dasafiar mais e mais.
+### imagens do site
+
+### imagens da tela de login
+![uploading tela-login.PNG...]()
