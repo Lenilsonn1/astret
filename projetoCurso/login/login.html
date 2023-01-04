@@ -18,20 +18,21 @@
                 <h1>LOGIN</h1>
                 <div class="textfield">
                     <label for="usuario">Usuário</label>
-                    <input type="text" name="usuario" placeholder="Usuario">
+                    <input type="text" name="usuario" id="usuario" placeholder="Usuario">
                 </div>
                 <div class="textfield">
                     <label for="senha">Senha</label>
                     <input type="password" name="senha" placeholder="*******">
                 </div>
                 <div class="bot">
-                    <a href="http://127.0.0.1:5500/home/home.html" class="btn-login">login</a>
-                    <!-- <button class="btn-login">Login</button> -->
+                    <!-- <a href="http://127.0.0.1:5500/home/home.html" class="btn-login" name="login">login</a> -->
+                    <button onclick="validarLogin()" class="btn-login" id="login">Login</button>
                     <button class="btn-login">Cadastrar</button>
                 </div>
 
             </div>
         </section>
     </main>
+    <script src="js.js"></script>
 </body>
 </html>
